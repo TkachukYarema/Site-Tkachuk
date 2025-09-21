@@ -1,0 +1,158 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    place-items: center;
+    position: absolute;
+    top: 15px;
+}
+.background_item{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 124px auto;
+}
+
+.background{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+.backgroundscr2{
+    position: absolute;
+    top: 950px;
+    width: 100%;
+}
+.backgroundscr3{
+    position: absolute;
+    top: 1750px;
+    width: 100%;
+}
+.backgroundscr4{
+    position: absolute;
+    top: 2650px;
+    width: 100%;
+}
+.backgroundscr5{
+    position: absolute;
+    top: 3550px;
+    width: 100%;
+}
+.text1{
+    position: absolute;
+    z-index: 1;
+    top: 350px;
+    left: 150px;
+    color: aliceblue;
+    font-size: x-large;
+}
+.text2 {
+    position: absolute;
+    z-index: 1;
+    font-size: large;
+}
+.listscr3{
+    position: absolute;
+    z-index: 1;
+    top: 1950px;
+    left: 100px;
+    color: aliceblue;
+    font-size: large;
+    width: 600px;
+}
+.knopkascr3{
+    position: absolute;
+    z-index: 1;
+    top: 2350px;
+    left: 100px;
+}
+.textscr2_1{
+    position: absolute;
+    z-index: 1;
+    top: 1100px;
+    left: 100px;
+    color: aliceblue;
+    font-size: large;
+    width: 500px;
+}
+.textscr2_2{
+    position: absolute;
+    z-index: 1;
+    top: 1100px;
+    left: 800px;
+    color: aliceblue;
+    font-size: large;
+    width: 300px;
+}
+.textscr3_2{
+    position: absolute;
+    z-index: 1;
+    top: 1900px;
+    left: 800px;
+    color: aliceblue;
+    font-size: large;
+    width: 500px;
+}
+.fotoscr1{
+    position: absolute;
+    z-index: 1;
+    left: 850px;
+    top: 400px;
+}
+.fotoscr4{
+    position: absolute;
+    z-index: 1;
+    left: 250px;
+    top: 2750px;
+    width: 900px;
+}
+.fotoscr5{
+    position: absolute;
+    z-index: 1;
+    left: 100px;
+    top: 3750px;
+}
+
+.btn1 {
+    width: 100%;
+    grid-column: 2;
+    grid-row: 1;
+    top: 4%;
+    left: 21%;
+}
+.btn2 {
+    width: 100%;
+    grid-column: 3;
+    grid-row: 1;
+    top: 4%;
+    left: 21%;
+}
+.btn3 {
+    width: 100%;
+    grid-column: 4;
+    grid-row: 1;
+    top: 4%;
+    left: 21%;
+}
+.btn4 {
+    width: 100%;
+    grid-column: 5;
+    grid-row: 1;
+    top: 4%;
+    left: 21%;
+}
+.logo1 {
+    grid-column: 1;
+    grid-row: 1;
+    position: absolute;
+    left: 1%;
+    top: 1.5%;
+}
+.slider {
+    width: 500px;
+    position: absolute;
+    z-index: 1;
+    left: 100px;
+    top: 1350px;
+}
